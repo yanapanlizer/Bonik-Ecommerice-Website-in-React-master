@@ -1,0 +1,51 @@
+.wrapper {
+  text-align: center;
+}
+
+.wrapper .img {
+  margin: auto;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  margin-bottom: 20px;
+}
+
+.wrapper .img i {
+  font-size: 25px;
+}
+
+.wrapper .product {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper .product h3 {
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+.wrapper p {
+  font-size: 15px;
+  margin-top: 10px;
+  color: grey;
+}
+.wrapper .product:nth-child(4) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper .product:nth-child(4) {
+  margin-top: -250px;
+}
+
+
+.wrapper .product:nth-child(4) h3 {
+  text-align: left;
+}
+
+.wrapper .product:nth-child(4) p {
+  text-align: left;
+}
